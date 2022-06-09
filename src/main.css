@@ -1,0 +1,33 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	overscroll-behavior: none;
+	overflow: hidden;
+}
+
+.main--container{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    align-items: center;
+	pointer-events: none;
+}
+
+.main--container > h1{
+    color: white;
+    font-size: 7em;
+    font-family: 'Rubik Glitch', cursive;
+    font-weight: 100;
+    margin-left: 10%;
+    width: 510px;
+    line-height: 90px;
+}
+
+@media only screen and (max-width: 660px) {
+	.main--container > h1{
+		font-size: 5em;
+		line-height: 0.8em;
+	}
+}
