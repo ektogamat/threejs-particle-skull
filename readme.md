@@ -17,7 +17,7 @@ Resources: [Threejs](https://threejs.org/), [WebGL](https://github.com/KhronosGr
 
 # Show, don't tell 
 Here you can see a video on how I created it
-<a href="https://www.youtube.com/c/andersonmancini" target="_blank"><img src="./static/youtube.png" width="100%"/></a>
+<a href="https://www.youtube.com/watch?v=0zPSfCvUoQ4" target="_blank"><img src="./static/youtube.png" width="100%"/></a>
 
 # Getting Started
 Download and install Node.js on your computer (https://nodejs.org/en/download/).
