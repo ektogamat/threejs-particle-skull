@@ -4,8 +4,7 @@
   "author": "Anderson Mancini <andersonmancini30@gmail.com> (https://twitter.com/Andersonmancini)",
   "scripts": {
     "build": "webpack --config ./bundler/webpack.prod.js",
-    "dev": "webpack serve --config ./bundler/webpack.dev.js",
-    "deploy": "vercel --prod"
+    "dev": "webpack serve --config ./bundler/webpack.dev.js"
   },
   "dependencies": {
     "@babel/core": "^7.15.8",
@@ -23,7 +22,6 @@
     "raw-loader": "^4.0.2",
     "style-loader": "^3.3.1",
     "three": "^0.134.0",
-    "vercel": "^25.1.0",
     "webpack": "^5.60.0",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.4.0",
