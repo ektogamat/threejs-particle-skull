@@ -15,7 +15,7 @@ body, html {
 	pointer-events: none;
 }
 
-.main--container > h1{
+.main--title{
     color: white;
     font-size: 7em;
     font-family: 'Rubik Glitch', cursive;
@@ -23,10 +23,26 @@ body, html {
     margin-left: 10%;
     width: 510px;
     line-height: 90px;
+    transform: translateX(30%);
+    opacity: 0;
+    transition: all 0.8s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
+.main--title.ended{
+    transform: translateX(0);
+    opacity: 1;
+    mix-blend-mode: soft-light;
+}
+
+.main--title.ended:after {
+    /* This value is the OPPOSITE color of our background */
+    color: rgb(0, 255, 255); 
+    
+}
+
+
 @media only screen and (max-width: 660px) {
-	.main--container > h1{
+	.main--title{
 		font-size: 5em;
 		line-height: 0.8em;
 	}
