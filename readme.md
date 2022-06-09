@@ -5,6 +5,9 @@
     <a href="https://threejs-particle-skull.vercel.app" target="_blank"><img src="./static/cover.jpg" width="100%"/></a>
 </p>
 
+# Live Link
+Click here: <a href="https://threejs-particle-skull.vercel.app" target="_blank">https://threejs-particle-skull.vercel.app</a>
+
 # Introduction
 This project converts any GLTF looaded model into a particle system using threejs points material. It is using my previous three.js boilerplate.
 
